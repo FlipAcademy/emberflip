@@ -3,16 +3,19 @@ body {
   font-weight: 300;
   overflow-x: hidden;
 }
+
 article {
   margin: 0 auto;
   max-width: 800px;
   padding: 1em;
 }
-h1, .glyph {
+
+h1 {
   font-family: 'Fira Sans';
   font-size: 40px;
   margin-bottom: 0;
 }
+
 p, li {
   font-family: 'Fira Sans';
   font-size: 24px;
@@ -36,12 +39,6 @@ ul {
   text-align: center;
 }
 
-.glyph {
-  margin: 1em auto;
-  text-align: center;
-  font-size: 72px;
-}
-
 #logo {
   margin-right: 0.5em;
 }
@@ -49,6 +46,10 @@ ul {
 .header {
   text-align: right;
   margin-bottom: 4em;
+}
+
+.rub {
+  font-family: 'ALSRubl-Arial', Arial, sans-serif;
 }
 
 @media (max-width: 640px) {
