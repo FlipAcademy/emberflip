@@ -36,22 +36,6 @@ ul {
   text-align: center;
 }
 
-.rub {
-position: relative;
-}
-.rub:before {
-content: «Р»;
-}
-.rub-line {
-position: absolute;
-top: .05em;
-left: 0px;
-}
-.rub-line:before {
-content: "-";
-}
-
-
 .glyph {
   margin: 1em auto;
   text-align: center;
