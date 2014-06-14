@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+article {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 1em;
+}
+h1, .glyph {
+  font-family: 'Fira Sans';
+  font-size: 40px;
+}
+p {
+  font-family: 'Fira Sans';
+  font-size: 26px;
+  padding: 0 1em;
+  font-weight: 300;
+}
+
+.glyph {
+  margin: 1em auto;
+  text-align: center;
+  font-size: 72px;
+}
+
+#logo {
+  float: right;
+}
+
+@media (max-width: 640px) {
+  p {
+    padding: 0;
+    font-size: 18px;
+  }
+}
