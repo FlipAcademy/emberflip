@@ -11,13 +11,46 @@ article {
 h1, .glyph {
   font-family: 'Fira Sans';
   font-size: 40px;
+  margin-bottom: 0;
 }
-p {
+p, li {
   font-family: 'Fira Sans';
-  font-size: 26px;
+  font-size: 24px;
   padding: 0 1em;
-  font-weight: 300;
+  font-weight: 200;
 }
+
+ul {
+  margin-left: 2em;
+}
+
+.extra-point {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: -25px;
+}
+
+.author-desc {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.rub {
+position: relative;
+}
+.rub:before {
+content: «Р»;
+}
+.rub-line {
+position: absolute;
+top: .05em;
+left: 0px;
+}
+.rub-line:before {
+content: "-";
+}
+
 
 .glyph {
   margin: 1em auto;
@@ -26,7 +59,12 @@ p {
 }
 
 #logo {
-  float: right;
+  margin-right: 0.5em;
+}
+
+.header {
+  text-align: right;
+  margin-bottom: 4em;
 }
 
 @media (max-width: 640px) {
