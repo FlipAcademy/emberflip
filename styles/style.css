@@ -59,6 +59,6 @@ ul {
   }
 
   #logo {
-    margin-right: 2em;
+    display: none;
   }
 }
