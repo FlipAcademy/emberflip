@@ -52,6 +52,18 @@ ul {
   font-family: 'ALSRubl-Arial', Arial, sans-serif;
 }
 
+.summary {
+  font-size: 16px;
+  margin: 0;
+}
+
+a {
+  border-bottom: solid 1px blue;
+  text-decoration: none;
+  display: inline-block;
+  height: 1.3em;
+}
+
 @media (max-width: 640px) {
   p, li {
     padding: 0;
