@@ -57,6 +57,18 @@ ul {
   margin: 0;
 }
 
+.not-possible {
+    position: relative;
+}
+.not-possible::after {
+    border-bottom: 2px solid black;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
 a {
   border-bottom: solid 1px blue;
   text-decoration: none;
